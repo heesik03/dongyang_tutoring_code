@@ -1,0 +1,32 @@
+# 컴파일 및 빌드 결과
+/build/
+/target/
+/out/
+*.class
+
+# Eclipse 로컬 작업 정보
+.metadata/
+.recommenders/
+Servers/
+*.launch
+
+# 로그와 임시 파일
+*.log
+*.tmp
+*.bak
+*~
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Eclipse 프로젝트 설정 포함
+!/.project
+!/.classpath
+!/.settings/
+!/.settings/**
+
+# 라이브러리 포함
+!/src/main/webapp/WEB-INF/lib/
+!/src/main/webapp/WEB-INF/lib/**
